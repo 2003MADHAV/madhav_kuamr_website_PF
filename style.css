@@ -1,0 +1,801 @@
+body {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 20px;
+  background-image: url('./images/backgpage.jpg')
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: #a6d0ce;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-copyright {
+  background-color: #423333;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  width: auto;
+  height: auto;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.footer-copyright p {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-copyright p:hover {
+  color: #ff5e14; /* Optional: Add hover effect */
+  transition: color 0.3s ease;
+}
+
+
+
+
+/*
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #d36161;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: -12px;
+    margin-left: -20px;
+}
+    
+*/
+/* Footer Styles */
+.footer-section {
+  background-color: #222; /* Dark background */
+  color: #fff; /* White text */
+  padding: 60px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-cta {
+  border-bottom: 1px solid #444; /* Subtle border for separation */
+}
+
+.single-cta {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.single-cta i {
+  color: #ff8c00; /* Accent color for icons */
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.cta-text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.cta-text span {
+  color: #aaa; /* Subtle color for smaller text */
+  font-size: 14px;
+}
+
+.footer-logo h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ff8c00; /* Accent color */
+}
+
+.footer-text p {
+  color: #bbb;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #ff8c00; /* Hover color for links */
+}
+
+.copyright-area {
+  background-color: #111;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.copyright-text p {
+  color: #888;
+  margin-bottom: 0;
+}
+
+.footer-menu {
+  padding-left: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer-menu li a {
+  color: #888;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-menu li a:hover {
+  color: #ff8c00; /* Hover color for menu items */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 767px) {
+  .footer-logo, .footer-links, .footer-text {
+      text-align: center;
+  }
+
+  .footer-menu {
+      text-align: center;
+  }
+
+  .footer-menu li {
+      margin-left: 0;
+      margin-right: 10px;
+  }
+
+  .footer-cta {
+      text-align: center;
+  }
+
+  .single-cta {
+      justify-content: center;
+  }
+  
+}
+@media (min-width: 768px) {
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 77%;
+  }
+}
+
+
+
+.rotate-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; 
+    animation: rotate 5s infinite linear;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#contact {
+  padding: 10px;
+  text-align: center;
+  background-color: #ece98a;
+}
+
+#social{
+    text-align: center;
+    background-color: rgb(164, 220, 220);
+}
+
+#social ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+#social ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+#social ul li a {
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#social ul li a:hover {
+  color: #005bb5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+    padding-left: 0px;
+  text-align: match-parent;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-image: url('./images/introbackground.jpg');
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.about-image {
+    flex: 1;
+    text-align: right;
+}
+
+.about-image img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about-text h2 {
+    font-size: 40px; 
+    font-weight: bold; 
+    
+}
+.project-section {
+    padding: 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color:rgba(54, 148, 117, 0.18)
+    
+  }
+
+  .project-section h2 {
+    font-size: 55px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .project-section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+  }
+
+  .project-features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color:rgb(198, 169, 131)
+  }
+
+  .feature {
+    background-color: rgb(227, 232, 171);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+  }
+
+  .feature h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .feature p {
+    font-size: 16px;
+    color: #666;
+  }
+
+  #projects {
+    padding: 50px;
+    background-color: rgb(195, 210, 172);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  #projects h3 {
+    font-size: 36px;
+    color: #fdeeee;
+    margin-bottom: 40px;
+  }
+
+  .project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .project-box {
+    background-color: bisque;
+    border-radius: 28px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 22px;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.2s;
+  }
+
+  .project-box:hover {
+    transform: scale(1.05);
+  }
+
+  .project-box strong {
+    font-size: 20px;
+    color: #333;
+  }
+
+  .project-box p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  .project-box:hover {
+    transform: scale(1.05);
+  }
+
+  .project-box strong {
+    font-size: 20px;
+    color: #333;
+  }
+
+  .project-box p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+
+.main-box {
+  background-color: #379ddc;  /* Color as per your preference */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading box styling */
+.heading-box {
+  background-color: #1d7e6e;  
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  font-size: 41px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+
+.row-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+.box {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(140, 52, 52, 0.1);
+}
+
+/* Hard Skills Box */
+.hard-skills {
+  background-color: #f7f4d6; 
+  border-color: #d4af37;
+}
+
+/* Soft Skills Box */
+.soft-skills {
+  background-color: #d6f7d9; 
+  border-color: #88d498;
+}
+
+/* Coursera Courses Box */
+.courses-coursera {
+  background-color: #f7d6e0;  
+  border-color: #f5a4bb;
+}
+
+/* NPTEL Courses Box */
+.courses-nptel {
+  background-color: #d6eaf8;  
+  border-color: #aed6f1;
+}
+
+.content-box {
+  background-color: #f0f0f0; 
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Headings inside boxes */
+.box h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: rgb(28, 22, 22);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* List styling */
+.box ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.box li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Coursera Courses Box: Different background color for the Coursera section */
+.courses-coursera .content-box {
+  background-color: #fde1e8;  /* Slightly different pink for content */
+}
+
+/* NPTEL Courses Box: Different background color for the NPTEL section */
+.courses-nptel .content-box {
+  background-color: #eaf2f8;  /* Slightly different blue for content */
+}
+
+/* Responsive Design: Stacks the boxes on small screens */
+@media (max-width: 768px) {
+  .row-container {
+    flex-direction: column;
+  }
+}
+
+/* Main box styling for Certifications & Internships */
+#certifications-internships .main-box {
+  background-color: #e0f7fa;  /* Light Cyan */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading for main section */
+#certifications-internships h3 {
+  font-size: 41px;
+  margin: 10px;
+  color: #00695c;  /* Dark Teal */
+  text-align: center;
+}
+
+/* Row container for certificates and internships */
+.row-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Box for each category */
+.box {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid;
+}
+
+/* Professional Certificates Box */
+.professional-certificates {
+  background-color: #ffe0b2;  /* Light Orange */
+  border-color: #ffb74d;  /* Darker Orange Border */
+}
+
+.professional-certificates h4 {
+  color: #e65100;  /* Dark Orange for heading */
+}
+
+/* Internships Box */
+.internships {
+  background-color: #c8e6c9;  /* Light Green */
+  border-color: #66bb6a;  /* Darker Green Border */
+}
+
+.internships h4 {
+  color: #2e7d32;  /* Dark Green for heading */
+}
+
+/* List styling */
+.box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.box li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Responsive Design: Stack boxes on smaller screens */
+@media (max-width: 768px) {
+  .row-container {
+      flex-direction: column;
+  }
+}
+/* Contact Form Styling */
+#contact1 {
+  padding: 10px;
+  text-align: center;
+  background-color: #0072B5;
+}
+#contact1 form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact1 label {
+  margin-top: -17px;
+  margin-bottom: 3px;
+  font-size: 31px;
+  color: #333
+}
+
+#contact1 input[type="text"],
+#contact1 input[type="email"],
+#contact1 textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Message Box Styling */
+#contact1 textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+#contact1 input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #00695c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact1 input[type="submit"]:hover {
+  background-color: #004d40;
+}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue; /* Button background color */
+  border: none;
+  color: white; /* Button text color */
+  padding: 12px 30px; /* Button padding */
+  font-size: 20px; /* Font size for button text */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  cursor: pointer; /* Pointer cursor on hover */
+  display: inline-flex; /* Flexbox for icon alignment */
+  align-items: center; /* Center the icon vertically */
+  gap: 10px; /* Space between icon and text */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue; /* Darker blue on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Icon size */
+.btn i {
+  font-size: 24px; /* Adjust icon size */
+}
+
+
+/* Aligning the content in the header */
+.header-content {
+  display: block ruby;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Navigation and download button section */
+.header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation styling */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+
+
+#profileImage1 {
+  width: 128px;
+  height: 125px;
+  border-radius: 59%;
+  object-fit: contain;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Header background styling */
+header {
+  background: url(https://live.staticflickr.com/1656/26031883676_182191d803_b.jpg);
+  background-color: rgba(0, 0, 0, 0);
+  background-size: auto;
+  background-size: cover;
+  background-color: #2b7dbf;
+  position: inherit;
+  height: 165px;
+  width: 96vw;
+  z-index: auto;
+  display: flex;
+  justify-content: inherit;
+  align-items: center;
+  padding: 98px;
+   
+}
+
+/* Shadow effect */
+.shadow {
+  box-shadow: -2px -5px 5px 0px rgba(0,0,0,0.3);
+}
+
+/* White background for content below header */
+.white-bg {
+  background-color: #fff;
+  position: absolute;
+  top: 400px; /* Adjust to match the header height */
+  min-height: 500px;
+  width: 100vw;
+  transform: skewY(5deg);
+  z-index: 0;
+}
+
+/* Content positioning */
+.content {
+  position: relative;
+  margin: 50px 10vw;
+  max-width: 60vw;
+  background-color: transparent;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #0800ff;
+  text-decoration: blue;
+  background-color: transparent;
+}
+
+
