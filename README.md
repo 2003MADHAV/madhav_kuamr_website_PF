@@ -30,5 +30,5 @@ This is the repository for **Madhav Kumar's** personal portfolio website, design
 
 1. **Clone the repository**:
    ```bash
-   https://github.com/2003MADHAV/madhav_kuamr_website_PF
+   https://github.com/2003MADHAV/madhav_kuamr_website_PF.git
 
